@@ -1,0 +1,19 @@
+# projectName/.github/config.yml
+
+name-template: "v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+template: | 
+  ## Changes
+  $CHANGES
+version-resolver:
+  major:
+    labels:
+      - "BREAKING CHANGE"
+  minor:
+    labels:
+      - "enhancement"
+  patch:
+    labels:
+      - "bug"
+#   default: patch
+change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
