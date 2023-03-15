@@ -1,0 +1,10 @@
+labels:
+  # major
+  "BREAKING CHANGE":
+    - '\bBREAKING CHANGE\b'
+  # minor
+  "enhancement":
+    - '\bfeat\b'
+  # patch
+  "bug":
+    - '\bfix\b'
