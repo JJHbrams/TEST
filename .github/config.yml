@@ -15,5 +15,5 @@ version-resolver:
   patch:
     labels:
       - "bug"
-#   default: patch
+  default: patch
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
