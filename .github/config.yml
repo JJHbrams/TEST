@@ -6,7 +6,7 @@ template: |
   ## Changes
   $CHANGES
 version-resolver:
-  major:
+  Major:
     labels:
       - "BREAKING CHANGE"
   minor:
@@ -15,5 +15,5 @@ version-resolver:
   patch:
     labels:
       - "bug"
-#   default: patch
+  default: patch
 change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
