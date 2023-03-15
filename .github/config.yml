@@ -6,7 +6,7 @@ template: |
   ## Changes
   $CHANGES
 version-resolver:
-  Major:
+  major:
     labels:
       - "BREAKING CHANGE"
   minor:
