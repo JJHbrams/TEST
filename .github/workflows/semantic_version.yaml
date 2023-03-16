@@ -2,7 +2,10 @@ name: Semantic_Version
 on:
   push:
     branch:
-      - master
+      - "*"
+  pull_request:
+    branch:
+      - "*"
     
 jobs:
   semantics_vsrsioning:
