@@ -1,14 +1,14 @@
 name: Semantic_Version
 on:
   push:
-  - **
+    
 jobs:
   semantics_vsrsioning:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+      - uses: actions/checkout@master
 
-    - uses: go-semantic-release/action@v1
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: go-semantic-release/action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
