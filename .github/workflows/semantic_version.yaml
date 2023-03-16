@@ -1,6 +1,8 @@
 name: Semantic_Version
 on:
   push:
+    branch:
+      - master
     
 jobs:
   semantics_vsrsioning:
